@@ -1,0 +1,15 @@
+Chers auditeurs,
+
+Je vais évoquer dans cette nouvelle partie des outils de la gestion réseau sur Linux.
+Ces outils permettent de configurer un réseau de serveurs, d'établir des diagnostics réseaux efficaces
+Pour gérer le réseau de notre environnement, il est important d'en connaître un certain nombre.
+Ces outils (de façon non-exhaustive) peuvent :  
+- vérifier la connectivité - taux de perte de paquets (ex : la commande ping) , 
+- afficher des informations sur les connexions réseau, table de routage , les protocoles utilisés (par la commande netstat)
+- configurer , gérer des paramètres d'interfaces réseau avec la commande ifconfig
+- gérer les adresses IP avec la commande ip assez semblable à la commande précédente qui peuvent gérer toutes les deux des interfaces réseau.
+- pour analyser les routes et la table de routage, cela passe par la commande route 
+- nous pouvons suivre le chemin des paquets utilisé pour parvenir à une destination, avec la commande traceroute...
+
+Pour compléter cela, vous trouverez encore une fois en annexe des images avec une application de quelques-unes de ces commandes. 
+Je poursuivrai également ce sujet par des exercices pratiques dans un OS adapté pour les tests et captures d'écran
